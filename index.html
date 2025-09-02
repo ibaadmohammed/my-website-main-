@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>👩‍🎓Mohammed Mohtashim Ibaad</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#education">Education</a></li>
+
+        <li><button id="themeToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="https://media-hyd1-1.cdn.whatsapp.net/v/t61.24694-24/534415333_2196906650735057_2805672148668525093_n.jpg?ccb=11-4&oh=01_Q5Aa2QEu4OTir5PC9f9XgpMhfKr4S9EMYowanq33cLsp-wkzew&oe=68C37660&_nc_sid=5e03e0&_nc_cat=102" alt="Profile Picture" class="profile-pic">
+    <p>Hi! I'm a student studying Information Technology. I love building websites and apps.
+        I'm passionate about learning new technologies and improving my skills.
+        In my free time, I enjoy reading tech blogs and experimenting with code.
+    </p>
+  </section>
+  <section id="education" class="timeline-section">
+  <h2 class="section-title">🎓 Education</h2>
+  <div class="timeline">
+    
+    <div class="timeline-item">
+      <div class="timeline-icon">🎓</div>
+      <div class="timeline-content">
+        <h3>Bachelor of Engineering in Information Technology</h3>
+        <span class="timeline-date">2023 – 2027</span>
+        <p><strong>Muffakham Jha College Of Engineering and Technology</strong><br />
+        Studying in 3rd Year. Focused on Web Development, Data Structures, and Machine Learning.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">🏫</div>
+      <div class="timeline-content">
+        <h3>Intermediate (11th-12th Grade – MPC)</h3>
+        <span class="timeline-date">2021 – 2023</span>
+        <p><strong>Sri Chaitanya Junior College</strong><br />
+        Scored 84% in Mathematics, Physics, and Chemistry stream.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">📚</div>
+      <div class="timeline-content">
+        <h3>Schooling (10th Grade)</h3>
+        <span class="timeline-date">2015 – 2021</span>
+        <p><strong>Iqbalia International School</strong><br />
+        Completed CBSE Board with 9.0 GPA.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <!-- Add your project cards here -->
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <canvas id="skillsChart" width="400" height="200"></canvas>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Mohammed Mohtashim Ibaad</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
