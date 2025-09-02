@@ -137,12 +137,20 @@ footer {
   display: block;
   margin-bottom: 0.5rem;
 }
-
-@media screen and (max-width: 600px) {
-  .timeline {
-    padding-left: 20px;
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
   }
-  .timeline-icon {
-    left: -25px;
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding: 1rem;
   }
 }
+
+
